@@ -1,7 +1,7 @@
 const express = require('express');
 const app     = express();
 
-// This line is required for taking POST request.
+// This line is required for taking POST JSON request.
 app.use(express.json());
 
 // Store all albums name into this array.
